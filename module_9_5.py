@@ -10,7 +10,6 @@ class Iterator:
         if step == 0:
             raise StepValueError('шаг не может быть равен 0')
 
-        # Сохраняем значения начального и конечного значений и шага
         self.start = start
         self.stop = stop
         self.step = step
